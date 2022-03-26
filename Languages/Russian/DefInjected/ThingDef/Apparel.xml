@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Lab Coat -->
+  <LabCoat.label>лабораторный халат</LabCoat.label>
+  <LabCoat.description>Простая белая верхняя одежда, которую традиционно носят адепты науки.</LabCoat.description>
+  <!-- Cyber Suit -->
+  <Apparel_CyberSuit.label>Кибер-костюм X-1</Apparel_CyberSuit.label>
+  <Apparel_CyberSuit.description>X-1 Cybernetic Body Defense Suit — это цельная экспериментальная система одежды. Разработанный для беспрепятственного взаимодействия биологических и электронных технологий, X-1 также обеспечивает высокую степень защиты от опасностей окружающей среды.</Apparel_CyberSuit.description>
+  <Apparel_Leviathan.label>Экзоскелет XMA-1 «Левиафан»</Apparel_Leviathan.label>
+  <Apparel_Leviathan.description>XMA-1 «Левиафан» — продукт огромных усилий и времени, вложенных колониальными исследователями. При оснащении соответствующими тяжелыми снарядами пилоты этой экзотической экзоскелетной системы фактически превращаются в шагающие боевые танки.</Apparel_Leviathan.description>
+  <Apparel_LeviathanH.label>Шлем МКА XMA-1 «Левиафан»</Apparel_LeviathanH.label>
+  <Apparel_LeviathanH.description>Бронированный шлем и центр первичного управления механизированной боевой арматуры (МСА) XMA-1 «Левиафан» оснащен алгоритмами, предназначенными для повышения индивидуальной рефлекторной реакции, точности огнестрельного оружия и остроты ума.</Apparel_LeviathanH.description>
+</LanguageData>

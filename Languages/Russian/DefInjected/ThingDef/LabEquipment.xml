@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <UnobtainableResearchBench.label>Недоступный исследовательский верстак</UnobtainableResearchBench.label>
+  <UnobtainableResearchBench.description>Невозможно построить</UnobtainableResearchBench.description>
+  <CounterTopModular.label>лабораторная стойка</CounterTopModular.label>
+  <CounterTopModular.description>Удобная столешница.</CounterTopModular.description>
+  <LabStation.label>лабораторная станция</LabStation.label>
+  <LabStation.description>Вспомогательная исследовательская станция для расширения лабораторных операций. Требуется питание</LabStation.description>
+  <LabTerminal.label>исследовательский терминал</LabTerminal.label>
+  <LabTerminal.description>Компактный исследовательский терминал для расширения лабораторных операций. Требуется питани</LabTerminal.description>
+</LanguageData>

@@ -163,6 +163,9 @@
       <layers>
         <li>Shell</li>
       </layers>
+      <tags>
+        <li>EVA</li>
+      </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>
@@ -223,6 +226,9 @@
       <layers>
         <li>Overhead</li>
       </layers>
+      <tags>
+        <li>EVA</li>
+      </tags>
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>

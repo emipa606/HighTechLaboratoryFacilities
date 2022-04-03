@@ -1,5 +1,8 @@
 # Changelog for HighTechLaboratoryFacilities
 
+1.3.3 - Added EVA tag for SOS2 for the Leviathan-armor and helmet
+
+
 1.3.2 - Russian translation added, thanks Dmitry6!
 
 

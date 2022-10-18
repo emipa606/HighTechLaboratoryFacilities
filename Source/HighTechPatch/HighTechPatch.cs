@@ -2,15 +2,14 @@
 using HarmonyLib;
 using Verse;
 
-namespace HighTechPatch
+namespace HighTechPatch;
+
+[StaticConstructorOnStartup]
+internal class HighTechPatch
 {
-    [StaticConstructorOnStartup]
-    internal class HighTechPatch
+    static HighTechPatch()
     {
-        static HighTechPatch()
-        {
-            var harmony = new Harmony("Mlie.HighTechLaboratoryFacilities");
-            harmony.PatchAll(Assembly.GetExecutingAssembly());
-        }
+        var harmony = new Harmony("Mlie.HighTechLaboratoryFacilities");
+        harmony.PatchAll(Assembly.GetExecutingAssembly());
     }
 }

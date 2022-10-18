@@ -1,9 +1,8 @@
 ﻿using Verse;
 
-namespace HighTechPatch
+namespace HighTechPatch;
+
+public class DefModExt_HighTechResearchBench : DefModExtension
 {
-    public class DefModExt_HighTechResearchBench : DefModExtension
-    {
-        public bool IsHighTechResearchBench = false;
-    }
+    public bool IsHighTechResearchBench = false;
 }

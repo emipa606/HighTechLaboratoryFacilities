@@ -1,48 +1,64 @@
-﻿using UnityEngine;
+﻿using Mlie;
+using UnityEngine;
 using Verse;
 
-namespace HighTechLaboratoryFacilities
+namespace HighTechLaboratoryFacilities;
+
+[StaticConstructorOnStartup]
+internal class HighTechLaboratoryFacilitiesMod : Mod
 {
-    [StaticConstructorOnStartup]
-    internal class HighTechLaboratoryFacilitiesMod : Mod
+    public static HighTechLaboratoryFacilitiesMod instance;
+    private static string currentVersion;
+
+    private HighTechLaboratoryFacilitiesModSettings settings;
+
+    public HighTechLaboratoryFacilitiesMod(ModContentPack content) : base(content)
     {
-        public static HighTechLaboratoryFacilitiesMod instance;
+        instance = this;
+        currentVersion =
+            VersionFromManifest.GetVersionFromModMetaData(
+                ModLister.GetActiveModWithIdentifier("Mlie.HighTechLaboratoryFacilities"));
+    }
 
-        private HighTechLaboratoryFacilitiesModSettings settings;
-
-        public HighTechLaboratoryFacilitiesMod(ModContentPack content) : base(content)
+    internal HighTechLaboratoryFacilitiesModSettings Settings
+    {
+        get
         {
-            instance = this;
-        }
-
-        internal HighTechLaboratoryFacilitiesModSettings Settings
-        {
-            get
+            if (settings == null)
             {
-                if (settings == null)
-                {
-                    settings = GetSettings<HighTechLaboratoryFacilitiesModSettings>();
-                }
-
-                return settings;
+                settings = GetSettings<HighTechLaboratoryFacilitiesModSettings>();
             }
-            set => settings = value;
+
+            return settings;
+        }
+        set => settings = value;
+    }
+
+    public override string SettingsCategory()
+    {
+        return "High Tech Laboratory Facilities";
+    }
+
+    public override void DoSettingsWindowContents(Rect rect)
+    {
+        var listing_Standard = new Listing_Standard();
+        listing_Standard.Begin(rect);
+        listing_Standard.CheckboxLabeled("HTLF.HideApparel".Translate(), ref Settings.HideApparel,
+            "HTLF.HideSpecial".Translate());
+        if (currentVersion != null)
+        {
+            listing_Standard.Gap();
+            GUI.contentColor = Color.gray;
+            listing_Standard.Label("HTLF.ModVersion".Translate(currentVersion));
+            GUI.contentColor = Color.white;
         }
 
-        public override string SettingsCategory()
-        {
-            return "High Tech Laboratory Facilities";
-        }
+        listing_Standard.End();
+    }
 
-        public override void DoSettingsWindowContents(Rect rect)
-        {
-            var listing_Standard = new Listing_Standard();
-            listing_Standard.Begin(rect);
-            listing_Standard.CheckboxLabeled("Hide apparel", ref Settings.HideApparel,
-                "Hide the Labcoat, cybersuit and Leviathan Powerarmor");
-            listing_Standard.End();
-            Settings.Write();
-            HighTechLaboratoryFacilities.SetApparelVisibility();
-        }
+    public override void WriteSettings()
+    {
+        base.WriteSettings();
+        HighTechLaboratoryFacilities.SetApparelVisibility();
     }
 }

@@ -1,5 +1,8 @@
 # Changelog for HighTechLaboratoryFacilities
 
+1.4.2 - Restructured mod as there is no point in separating the harmony-patches
+
+
 1.4.1 - Mod updated for 1.4 and passed autotests.
 Used DeepL to update translations for ChineseSimplified, French, German, Russian
 

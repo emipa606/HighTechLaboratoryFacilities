@@ -16,8 +16,7 @@ internal class HighTechLaboratoryFacilitiesMod : Mod
     {
         instance = this;
         currentVersion =
-            VersionFromManifest.GetVersionFromModMetaData(
-                ModLister.GetActiveModWithIdentifier("Mlie.HighTechLaboratoryFacilities"));
+            VersionFromManifest.GetVersionFromModMetaData(content.ModMetaData);
     }
 
     internal HighTechLaboratoryFacilitiesModSettings Settings

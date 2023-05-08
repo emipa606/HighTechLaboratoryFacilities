@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
   <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "HiTechResearchBench" or defName = "CounterTopModular" or defName = "LabStation" or defName = "LabTerminal"]</xpath>
+    <xpath>Defs/ThingDef[defName = "HiTechResearchBench" or defName = "CounterTopModular" or defName = "LabStation" or defName = "LabTerminal"]</xpath>
     <value>
       <colorPerStuff>
         <li>

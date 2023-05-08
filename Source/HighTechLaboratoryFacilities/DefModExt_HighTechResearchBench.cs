@@ -1,6 +1,6 @@
 ﻿using Verse;
 
-namespace HighTechPatch;
+namespace HighTechLaboratoryFacilities;
 
 public class DefModExt_HighTechResearchBench : DefModExtension
 {

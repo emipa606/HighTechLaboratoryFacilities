@@ -9,6 +9,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=841760538
 - Fixed the coloring of the benches added by the mod
 - For those who want the old color of the benches they will now have the old color when made of Plasteel
 - Russian translation added, thanks Dmitry6!
+- Check out the  https://steamcommunity.com/sharedfiles/filedetails/?id=2912390375]retexture mod by ThatBartGuy
 
 ![Image](https://i.imgur.com/pufA0kM.png)
 
@@ -41,3 +42,4 @@ Quick and dirty update! Added native minification def to all items due to popula
 
 
 
+https://steamcommunity.com/sharedfiles/filedetails/changelog/1542048177]Last updated 2023-05-08

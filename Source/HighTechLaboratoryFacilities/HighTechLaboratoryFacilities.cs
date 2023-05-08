@@ -1,5 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
+using HarmonyLib;
 using Verse;
 
 namespace HighTechLaboratoryFacilities;
@@ -9,6 +11,8 @@ internal static class HighTechLaboratoryFacilities
 {
     static HighTechLaboratoryFacilities()
     {
+        var harmony = new Harmony("Mlie.HighTechLaboratoryFacilities");
+        harmony.PatchAll(Assembly.GetExecutingAssembly());
         SetApparelVisibility();
     }
 

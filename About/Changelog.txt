@@ -1,5 +1,8 @@
 # Changelog for HighTechLaboratoryFacilities
 
+1.5.0 - Mod updated for 1.5 and passed autotests
+
+
 1.4.2 - Restructured mod as there is no point in separating the harmony-patches
 
 

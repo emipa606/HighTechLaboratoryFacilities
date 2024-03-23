@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Linq;
+﻿using System.Linq;
 using System.Reflection;
 using HarmonyLib;
 using Verse;
@@ -42,7 +41,7 @@ internal static class HighTechLaboratoryFacilities
 
             if (hidden)
             {
-                recipe.factionPrerequisiteTags = new List<string> { "Not_available_for_you" };
+                recipe.factionPrerequisiteTags = ["Not_available_for_you"];
             }
             else
             {

@@ -4,5 +4,5 @@ namespace HighTechLaboratoryFacilities;
 
 public class DefModExt_HighTechResearchBench : DefModExtension
 {
-    public bool IsHighTechResearchBench = false;
+    public readonly bool IsHighTechResearchBench = false;
 }

@@ -7,14 +7,14 @@ namespace HighTechLaboratoryFacilities;
 [StaticConstructorOnStartup]
 internal class HighTechLaboratoryFacilitiesMod : Mod
 {
-    public static HighTechLaboratoryFacilitiesMod instance;
+    public static HighTechLaboratoryFacilitiesMod Instance;
     private static string currentVersion;
 
     private HighTechLaboratoryFacilitiesModSettings settings;
 
     public HighTechLaboratoryFacilitiesMod(ModContentPack content) : base(content)
     {
-        instance = this;
+        Instance = this;
         currentVersion =
             VersionFromManifest.GetVersionFromModMetaData(content.ModMetaData);
     }
@@ -23,10 +23,7 @@ internal class HighTechLaboratoryFacilitiesMod : Mod
     {
         get
         {
-            if (settings == null)
-            {
-                settings = GetSettings<HighTechLaboratoryFacilitiesModSettings>();
-            }
+            settings ??= GetSettings<HighTechLaboratoryFacilitiesModSettings>();
 
             return settings;
         }
@@ -40,19 +37,19 @@ internal class HighTechLaboratoryFacilitiesMod : Mod
 
     public override void DoSettingsWindowContents(Rect rect)
     {
-        var listing_Standard = new Listing_Standard();
-        listing_Standard.Begin(rect);
-        listing_Standard.CheckboxLabeled("HTLF.HideApparel".Translate(), ref Settings.HideApparel,
+        var listingStandard = new Listing_Standard();
+        listingStandard.Begin(rect);
+        listingStandard.CheckboxLabeled("HTLF.HideApparel".Translate(), ref Settings.HideApparel,
             "HTLF.HideSpecial".Translate());
         if (currentVersion != null)
         {
-            listing_Standard.Gap();
+            listingStandard.Gap();
             GUI.contentColor = Color.gray;
-            listing_Standard.Label("HTLF.ModVersion".Translate(currentVersion));
+            listingStandard.Label("HTLF.ModVersion".Translate(currentVersion));
             GUI.contentColor = Color.white;
         }
 
-        listing_Standard.End();
+        listingStandard.End();
     }
 
     public override void WriteSettings()

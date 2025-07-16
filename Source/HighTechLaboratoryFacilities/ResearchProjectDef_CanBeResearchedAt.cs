@@ -4,7 +4,8 @@ using Verse;
 
 namespace HighTechLaboratoryFacilities;
 
-[HarmonyPatch(typeof(ResearchProjectDef), "CanBeResearchedAt", typeof(Building_ResearchBench), typeof(bool))]
+[HarmonyPatch(typeof(ResearchProjectDef), nameof(ResearchProjectDef.CanBeResearchedAt), typeof(Building_ResearchBench),
+    typeof(bool))]
 public static class ResearchProjectDef_CanBeResearchedAt
 {
     public static void Postfix(Building_ResearchBench bench, bool ignoreResearchBenchPowerStatus,

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: laboratory counter -->
+  <CounterTopModular.label>laboratory counter</CounterTopModular.label>
+  <!-- EN: A convenient countertop surface. -->
+  <CounterTopModular.description>A convenient countertop surface.</CounterTopModular.description>
+  <!-- EN: laboratory station -->
+  <LabStation.label>laboratory station</LabStation.label>
+  <!-- EN: An auxillary research station for expanding laboratory operations. Requires power. -->
+  <LabStation.description>An auxillary research station for expanding laboratory operations. Requires power.</LabStation.description>
+  <!-- EN: research terminal -->
+  <LabTerminal.label>research terminal</LabTerminal.label>
+  <!-- EN: A compact research terminal for expanding laboratory operations. Requires power. -->
+  <LabTerminal.description>A compact research terminal for expanding laboratory operations. Requires power.</LabTerminal.description>
+  <!-- EN: Unobtainable research bench -->
+  <UnobtainableResearchBench.label>Unobtainable research bench</UnobtainableResearchBench.label>
+  <!-- EN: Not possible to build -->
+  <UnobtainableResearchBench.description>Not possible to build</UnobtainableResearchBench.description>
+</LanguageData>

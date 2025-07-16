@@ -1,0 +1,100 @@
+ManifestFileVersion: 0
+CRC: 3084958173
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d19296e6e4c94c41332cec5cb9cb9c2d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: d19296e6e4c94c41332cec5cb9cb9c2d
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Apparel/LabCoat_Male_east.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Apparel/Leviathan_Fat_east.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Building/Research/ScienceStation_southm.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Apparel/CyberSuit_Hulk_east.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Building/Research/ScienceStationIco.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Building/Research/ScienceStation_northm.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Apparel/Leviathan_Female_east.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Apparel/CyberSuit_Female_east.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Apparel/CyberSuit_Hulk_north.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Apparel/LabCoat_Hulk_south.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Apparel/Leviathan_Male_south.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Apparel/LabCoat_Fat_north.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Building/Research/ScienceTerminalIco.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Apparel/CyberSuit_Female_north.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Apparel/LabCoat_Thin_east.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Apparel/LeviathanH.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Building/Research/ScienceTerminal_north.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Building/Research/Comms_east.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Building/Research/ScienceTerminal_northm.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Apparel/LabCoat_Hulk_north.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Apparel/LeviathanH_north.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Building/Research/ResearchBenchHiTech_southm.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Building/Research/ScienceTerminal_southm.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Apparel/LabCoat_Thin_north.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Building/Research/ScienceStation_north.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Apparel/Leviathan_Thin_north.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Apparel/LabCoat_Thin_south.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Building/Research/ScienceTerminal_south.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Building/Research/ResearchBenchHiTech_east.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Building/Research/ResearchBenchHiTech_eastm.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Apparel/LabCoat.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Apparel/Leviathan_Female_north.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Building/Research/MultiAnalyzer.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Apparel/CyberSuit_Thin_north.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Apparel/CyberSuit_Fat_south.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Building/Research/ScienceStation_eastm.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Building/Research/ResearchBenchHiTech_south.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Apparel/Leviathan_Male_north.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Building/Research/ResearchBenchHiTechIco.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Apparel/LabCoat_Fat_south.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Building/Research/ScienceStation_east.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Apparel/Leviathan_Thin_south.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Apparel/Leviathan_Thin_east.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Building/Research/CounterIco.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Building/Research/ScienceTerminal_east.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Apparel/CyberSuit_Male_east.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Apparel/LabCoat_Male_south.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Apparel/CyberSuit_Thin_east.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Apparel/Leviathan_Fat_north.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Apparel/CyberSuit.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Apparel/LabCoat_Male_north.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Apparel/CyberSuit_Male_south.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Building/Research/ResearchBenchHiTech_north.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Building/Research/ResearchBenchHiTech_northm.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Apparel/Leviathan_Hulk_east.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Apparel/CyberSuit_Thin_south.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Apparel/Leviathan_Hulk_north.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Apparel/LabCoat_Female_south.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Apparel/LeviathanH_east.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Building/Research/ScienceTerminal_eastm.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Building/Research/ScienceStation_south.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Building/Research/Comms_north.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Apparel/Leviathan_Fat_south.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Apparel/CyberSuit_Female_south.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Apparel/LabCoat_Female_north.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Apparel/LabCoat_Hulk_east.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Apparel/CyberSuit_Hulk_south.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Apparel/Leviathan_Hulk_south.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Apparel/CyberSuit_Male_north.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Apparel/LeviathanH_south.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Building/Empty.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Apparel/CyberSuit_Fat_east.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Apparel/LabCoat_Female_east.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Apparel/Leviathan.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Building/Research/Comms_south.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Apparel/Leviathan_Female_south.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Building/Research/Counter_Atlas.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Building/Research/GroundPenetratingScanner.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Apparel/Leviathan_Male_east.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Apparel/CyberSuit_Fat_north.png
+- Assets/Data/Mlie.HighTechLaboratoryFacilities/Textures/Things/Apparel/LabCoat_Fat_east.png
+Dependencies: []

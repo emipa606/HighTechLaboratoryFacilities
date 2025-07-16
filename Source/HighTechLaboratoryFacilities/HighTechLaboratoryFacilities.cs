@@ -10,25 +10,18 @@ internal static class HighTechLaboratoryFacilities
 {
     static HighTechLaboratoryFacilities()
     {
-        var harmony = new Harmony("Mlie.HighTechLaboratoryFacilities");
-        harmony.PatchAll(Assembly.GetExecutingAssembly());
+        new Harmony("Mlie.HighTechLaboratoryFacilities").PatchAll(Assembly.GetExecutingAssembly());
         SetApparelVisibility();
     }
 
     internal static void SetApparelVisibility()
     {
-        //Log.Message("HighTechLaboratoryFacilities: SetApparelVisibility" );
-        if (HighTechLaboratoryFacilitiesMod.instance.Settings == null)
+        HighTechLaboratoryFacilitiesMod.Instance.Settings ??= new HighTechLaboratoryFacilitiesModSettings
         {
-            //Log.Message("HighTechLaboratoryFacilities: settings null");
-            HighTechLaboratoryFacilitiesMod.instance.Settings = new HighTechLaboratoryFacilitiesModSettings
-            {
-                HideApparel = false
-            };
-        }
+            HideApparel = false
+        };
 
-        //Log.Message("HighTechLaboratoryFacilities: var hidden");
-        var hidden = HighTechLaboratoryFacilitiesMod.instance.Settings.HideApparel;
+        var hidden = HighTechLaboratoryFacilitiesMod.Instance.Settings.HideApparel;
 
         var recipeList = DefDatabase<RecipeDef>.AllDefs.ToList();
         foreach (var recipe in recipeList)
@@ -47,8 +40,6 @@ internal static class HighTechLaboratoryFacilities
             {
                 recipe.factionPrerequisiteTags?.Clear();
             }
-
-            //Log.Message("HighTechLaboratoryFacilities: " + recipe.defName + " hidden set to " + hidden);
         }
 
         var researchList = DefDatabase<ResearchProjectDef>.AllDefs.ToList();
@@ -61,8 +52,6 @@ internal static class HighTechLaboratoryFacilities
 
             research.requiredResearchBuilding =
                 hidden ? DefDatabase<ThingDef>.GetNamedSilentFail("UnobtainableResearchBench") : null;
-
-            //Log.Message("HighTechLaboratoryFacilities: " + research.defName + " hidden set to " + hidden);
         }
 
         var list = DefDatabase<ThingDef>.AllDefs.ToList();
@@ -81,8 +70,6 @@ internal static class HighTechLaboratoryFacilities
             {
                 thing.generateCommonality = 0.01f;
             }
-
-            //Log.Message("HighTechLaboratoryFacilities: " + thing.defName + " commonality set to " + thing.generateCommonality);
         }
     }
 }

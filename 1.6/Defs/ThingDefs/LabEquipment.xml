@@ -131,6 +131,11 @@
     <researchPrerequisites>
       <li>MicroelectronicsBasics</li>
     </researchPrerequisites>
+    <building>
+      <paintable>true</paintable>
+      <workTableRoomRole>Laboratory</workTableRoomRole>
+      <workTableNotInRoomRoleFactor>0.8</workTableNotInRoomRoleFactor>
+    </building>
   </ThingDef>
   <ThingDef ParentName="BenchBase">
     <defName>LabTerminal</defName>
@@ -201,5 +206,10 @@
     <researchPrerequisites>
       <li>MicroelectronicsBasics</li>
     </researchPrerequisites>
+    <building>
+      <paintable>true</paintable>
+      <workTableRoomRole>Laboratory</workTableRoomRole>
+      <workTableNotInRoomRoleFactor>0.8</workTableNotInRoomRoleFactor>
+    </building>
   </ThingDef>
 </Defs>

@@ -3,7 +3,7 @@
   "CanAdd": "0",
   "CanRemove": "2",
   "PreviewVersion": "1.6",
-  "LastXmlCleaning": "2025-07-20T19:46:30.9875282+02:00",
+  "LastXmlCleaning": "2025-07-29T22:21:18.1093364+02:00",
   "SocialImageSet": true,
   "SearchTags": [
     " laboratory",
@@ -12,7 +12,7 @@
   "Patches": true,
   "Defs": true,
   "Assemblies": true,
-  "LinesOfCode": 8392,
+  "LinesOfCode": 9903,
   "LinesOfXML": 21587,
   "CodeBaseSize": 71
 }

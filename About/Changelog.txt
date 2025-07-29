@@ -1,5 +1,8 @@
 # Changelog for HighTechLaboratoryFacilities
 
+1.6.2 - Added a Harmony patch to make the research tree see the benches as hi-tech
+
+
 1.6.1 - Fixed laboratory room role
 
 

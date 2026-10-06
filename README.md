@@ -1,6 +1,6 @@
 # [High Tech Laboratory Facilities (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=1542048177)
 
-![Image](https://i.imgur.com/buuPQel.png)
+![Image](https://img.litet.net/logos/Info.png)
 
 Update of Pravus mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=841760538
@@ -11,9 +11,9 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=841760538
 - Russian translation added, thanks Dmitry6!
 - Check out the [retexture mod]( https://steamcommunity.com/sharedfiles/filedetails/?id=2912390375) by ThatBartGuy
 
-![Image](https://i.imgur.com/pufA0kM.png)
+![Image](https://img.litet.net/logos/Notice.png)
 	
-![Image](https://i.imgur.com/Z4GOv8H.png)
+![Image](https://img.litet.net/logos/OriginalDescription.png)
 
 New and redesigned laboratory facilities for a more high tech look!
 
@@ -26,13 +26,13 @@ This mod started out as a personal project for myself to use in my own game but 
 
 Quick and dirty update! Added native minification def to all items due to popular request. All usable research items (Hi-Tech Research Bench, Laboratory Station, and Research Terminal) now link with the MultiAnalyzer and each other for a benefit of +10% research speed per link. This hopefully makes up for the Laboratory Station and Research Terminal not counting as Hi-Tech Research Benches for the purpose of actively researching technologies with the bench specifically noted as a prerequisite. Enjoy!
 
-![Image](https://i.imgur.com/PwoNOj4.png)
+![Image](https://img.litet.net/logos/ReportingIssues.png)
 
 
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
+-  Always post your log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404)
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
@@ -40,4 +40,4 @@ Quick and dirty update! Added native minification def to all items due to popula
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/HighTechLaboratoryFacilities?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/1542048177) | tags:  laboratory,  equipment
+[![Image](https://img.shields.io/github/v/release/emipa606/HighTechLaboratoryFacilities?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/1542048177) | equipment, laboratory

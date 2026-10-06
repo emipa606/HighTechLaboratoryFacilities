@@ -24,7 +24,7 @@
     <li>brrainz.harmony</li>
   </loadAfter>
   <url>https://github.com/emipa606/HighTechLaboratoryFacilities</url>
-  <description>[img]https://i.imgur.com/buuPQel.png[/img]
+  <description>[img]https://img.litet.net/logos/Info.png[/img]
 Update of Pravus mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=841760538
 
@@ -34,20 +34,20 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=841760538
 - Russian translation added, thanks Dmitry6!
 - Check out the [url= https://steamcommunity.com/sharedfiles/filedetails/?id=2912390375]retexture mod[/url] by ThatBartGuy
 
-[img]https://i.imgur.com/pufA0kM.png[/img]
+[img]https://img.litet.net/logos/Notice.png[/img]
 
 [table]
     [tr]
-        [td][url=https://discord.gg/h5TY6DA][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
-        [td][url=https://github.com/emipa606/HighTechLaboratoryFacilities][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+        [td][url=https://discord.gg/h5TY6DA][img]https://img.litet.net/logos/Discord.png[/img][/url][/td]
+        [td][url=https://github.com/emipa606/HighTechLaboratoryFacilities][img]https://img.litet.net/logos/Github.png[/img][/url][/td]
     [/tr]
     [tr]
-        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
-        [td][img]https://i.imgur.com/Be8E2qJ.png[/img][/td]
+        [td][img]https://img.litet.net/logos/SafeToAdd.png[/img][/td]
+        [td][img]https://img.litet.net/logos/RemoveMayWork.png[/img][/td]
     [/tr]
 [/table]
 	
-[img]https://i.imgur.com/Z4GOv8H.png[/img]
+[img]https://img.litet.net/logos/OriginalDescription.png[/img]
 
 New and redesigned laboratory facilities for a more high tech look!
 
@@ -60,17 +60,17 @@ This mod started out as a personal project for myself to use in my own game but 
 
 Quick and dirty update! Added native minification def to all items due to popular request. All usable research items (Hi-Tech Research Bench, Laboratory Station, and Research Terminal) now link with the MultiAnalyzer and each other for a benefit of +10% research speed per link. This hopefully makes up for the Laboratory Station and Research Terminal not counting as Hi-Tech Research Benches for the purpose of actively researching technologies with the bench specifically noted as a prerequisite. Enjoy!
 
-[img]https://i.imgur.com/PwoNOj4.png[/img]
+[img]https://img.litet.net/logos/ReportingIssues.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
-[*] Post your error-log using the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Log Uploader[/url] or the standalone [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader[/url] and command Ctrl+F12
+[*] Always post your log using the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Log Uploader[/url]
 [*] For best support, please use the Discord-channel for error-reporting.
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
 [/list] 
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/1542048177][img]https://img.shields.io/github/v/release/emipa606/HighTechLaboratoryFacilities?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags:  laboratory,  equipment</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.6.2</modVersion>
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/1542048177][img]https://img.shields.io/github/v/release/emipa606/HighTechLaboratoryFacilities?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | equipment, laboratory</description>
+  <modVersion IgnoreIfNoMatchingField="True">1.6.3</modVersion>
 </ModMetaData>

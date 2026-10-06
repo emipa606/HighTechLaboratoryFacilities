@@ -149,15 +149,22 @@
       <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.9</ArmorRating_Sharp>
       <ArmorRating_Heat>0.4</ArmorRating_Heat>
-      <Insulation_Cold>60</Insulation_Cold>
+      <Insulation_Cold>90</Insulation_Cold>
       <Insulation_Heat>60</Insulation_Heat>
       <EquipDelay>15</EquipDelay>
     </statBases>
     <equippedStatOffsets>
       <MoveSpeed>1.4</MoveSpeed>
       <WorkSpeedGlobal>-0.10</WorkSpeedGlobal>
+      <DecompressionResistance MayRequire="kentington.saveourship2">0.75</DecompressionResistance>
+      <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.32</VacuumResistance>
     </equippedStatOffsets>
     <generateCommonality>0</generateCommonality>
+    <comps>
+      <li MayRequire="kentington.saveourship2">
+        <compClass>SaveOurShip2.CompEVA</compClass>
+      </li>
+    </comps>
     <apparel>
       <wornGraphicPath>Things/Apparel/Leviathan</wornGraphicPath>
       <layers>
@@ -219,9 +226,12 @@
       <WorkSpeedGlobal>-0.15</WorkSpeedGlobal>
       <ShootingAccuracyPawn>0.10</ShootingAccuracyPawn>
       <AimingDelayFactor>-0.07</AimingDelayFactor>
+      <DecompressionResistance MayRequire="kentington.saveourship2">0.25</DecompressionResistance>
+      <HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
     </equippedStatOffsets>
     <generateCommonality>0</generateCommonality>
     <apparel>
+      <immuneToToxGasExposure>true</immuneToToxGasExposure>
       <wornGraphicPath>Things/Apparel/LeviathanH</wornGraphicPath>
       <layers>
         <li>Overhead</li>
@@ -236,5 +246,10 @@
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
+    <comps>
+      <li MayRequire="kentington.saveourship2">
+        <compClass>SaveOurShip2.CompEVA</compClass>
+      </li>
+    </comps>
   </ThingDef>
 </Defs>

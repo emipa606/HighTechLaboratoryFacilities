@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using System.Reflection;
 using HarmonyLib;
 using RimWorld;
@@ -23,12 +24,10 @@ public static class MainTabWindow_Research_DrawResearchBenchRequirements
             }
 
             var methods = nested.GetMethods(BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.Static);
-            foreach (var method in methods)
+            foreach (var method in methods.Where(m =>
+                         m.Name.Contains("DrawResearchBenchRequirements") && m.Name.Contains("b__")))
             {
-                if (method.Name.Contains("DrawResearchBenchRequirements") && method.Name.Contains("b__"))
-                {
-                    yield return method;
-                }
+                yield return method;
             }
         }
     }

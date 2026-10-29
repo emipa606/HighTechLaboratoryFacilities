@@ -1,54 +1,98 @@
-# GitHub Copilot Instructions for RimWorld Modding Project
+# GitHub Copilot Instructions for High Tech Laboratory Facilities (Continued) Mod
 
 ## Mod Overview and Purpose
 
-**HighTechLaboratoryFacilities** is a RimWorld mod that aims to enhance the research capabilities and facilities within the game. The mod introduces new high-tech research benches and laboratory facilities that players can build to significantly boost their research efficiency and expand their options within the research tree. The mod enhances gameplay by adding depth and variety to the tech progression, making research more engaging and strategically rewarding.
+The High Tech Laboratory Facilities (Continued) mod for RimWorld is an update to the original Pravus mod. The mod provides new and redesigned laboratory facilities with a more high-tech look. It includes custom graphics for research benches, comms consoles, and other research-related assets. The mod also adds tailor-made lab coats that slightly enhance research skills and a late-game research project that unlocks plans for an advanced powered combat exoskeleton.
 
 ## Key Features and Systems
 
-1. **High-Tech Research Benches**: Adds advanced research benches that provide greater research speed and unique bonuses compared to the vanilla game benches.
-   
-2. **Laboratory Facilities**: Introduces new building facilities that, when placed near research benches, improve research capabilities or provide unique bonuses.
-
-3. **Advanced Mod Settings**: The mod includes customizable settings allowing players to tweak research speeds and bonus effects according to their gameplay preferences.
-
-4. **Research Compatibility**: Ensures that all research projects can be conducted using the new facilities, integrating seamlessly with existing and modded research projects.
+- **Custom Graphics:** New and redesigned laboratory facilities with a high-tech appearance.
+- **Lab Coats:** Tailor-made lab coats that enhance research skills.
+- **Advanced Exoskeleton:** Late-game research project that unlocks plans for an advanced powered combat exoskeleton.
+- **Apparel Visibility Option:** Option to hide apparel added by the mod.
+- **Russian Translation:** Added translation, thanks to Dmitry6.
 
 ## Coding Patterns and Conventions
 
-- **Class and Method Organization**: The project is organized with classes segregated by their functionality. Mod extension classes are named with the `DefModExt` prefix to indicate their role in extending definitions, while core mod functionality is housed in classes with a `Mod` suffix.
-
-- **Internal Access Modifiers**: Classes and methods that are not exposed outside the assembly are marked `internal`, following the principle of encapsulation and minimizing the public API surface.
-
-- **Static Utility Classes**: Utility functions, particularly those that interact with game mechanics (such as research checking), are placed in static classes and methods, ensuring ease of access without needing instantiation.
+- **Mod Structure:** The mod follows a typical RimWorld mod structure with C# source files and XML definition files.
+- **Harmony Patching:** Utilizes Harmony for patching existing RimWorld code.
+- **Settings Management:** Manages mod settings through the settings menu and XML configuration files.
+- **Localization:** Supports multiple languages, including Russian.
 
 ## XML Integration
 
-XML files define the high-tech benches and facilities, specifying their resource costs, research speed modifiers, and special attributes. XML integration includes:
-- **Defining New Buildings**: New building definitions to ensure they appear correctly within the game, with proper attributes like research speed multipliers.
-- **Research Integration**: XML tags in `ResearchProjectDefs` to check if projects are compatible with high-tech facilities.
-- **Localization Support**: XML files for translations and mod settings descriptions to ensure accessibility to a broader audience.
+The mod integrates with RimWorld's XML system to define new and modified assets. The XML files are located in the `Defs` directory and include definitions for:
+
+- **ResearchProjectDefs:** Defines new research projects.
+- **ThingDefs:** Defines new and modified items, including apparel and lab equipment.
 
 ## Harmony Patching
 
-- **Purpose**: Harmony is used to patch into RimWorld's core methods to modify or enhance functionality without altering the original game code directly.
-  
-- **Patching Strategy**: 
-  - Patching is primarily used to adjust how research functionality interacts with the new facilities. 
-  - Harmony patches might be added to methods related to research speed calculation or facility interaction checks.
+The mod uses Harmony to patch existing RimWorld code to add new functionality. Key patches include:
 
-- **Implementation**: Utilize `[HarmonyPatch]` annotations to specify targets and pre/postfix methods for augmenting existing game functions.
+- **Research Bench Links:** Patches the research system to allow Hi-Tech Research Benches to link with other research items for a +10% research speed boost.
+- **Apparel Visibility:** Patches the game to hide apparel added by the mod when the option is enabled.
 
 ## Suggestions for Copilot
 
-1. **Suggesting New Features**: Copilot can be prompted to suggest new features or improvements, such as unique research projects only available through high-tech benches or thematic enhancements like facility-specific events.
+- **XML Definitions:** Provide examples of XML definitions for new research projects and items.
+- **Harmony Patches:** Provide examples of Harmony patches for modifying existing RimWorld behavior.
+- **Settings Management:** Provide examples of how to manage mod settings through the settings menu and XML configuration files.
+- **Localization:** Provide examples of how to add translations for multiple languages.
 
-2. **Code Refactoring**: Use Copilot to suggest optimizations or refactoring opportunities by analyzing repetitive code patterns or enhancing code efficiency.
+## Example Usage
 
-3. **Harmony Patch Assistance**: When implementing patches, Copilot can offer syntax suggestions and help identify suitable methods to patch, ensuring minimal conflict with other mods.
+To get started with the mod, you can use Copilot to generate XML definitions for new research projects or Harmony patches for modifying existing RimWorld behavior. For example, to create a new research project, you can use Copilot to generate an example XML definition for a research project.
 
-4. **XML File Editing**: Copilot can assist in generating or updating XML data by predicting tags and structure necessary for integrating new content seamlessly.
+xml
+<ResearchProjectDef>
+    <defName>AdvancedExoskeleton</defName>
+    <label>Advanced Powered Combat Exoskeleton</label>
+    <description>Unlock plans for an advanced powered combat exoskeleton.</description>
+    <prerequisites>
+        <li>HiTechResearchBench</li>
+    </prerequisites>
+    <root>true</root>
+    <techLevel>TechLevel.Industrial</techLevel>
+</ResearchProjectDef>
 
-5. **Debugging and Error Checking**: Leverage Copilot's syntax checking to quickly identify potential code issues or XML misconfigurations, aiding in rapid debugging and iteration.
 
-By following these instructions and utilizing GitHub Copilot effectively, mod developers can enhance their productivity and improve the quality of their modding projects for RimWorld.
+To create a Harmony patch for modifying existing RimWorld behavior, you can use Copilot to generate an example patch.
+
+csharp
+using HarmonyLib;
+using RimWorld;
+
+public class ExoskeletonPatch
+{
+    [HarmonyPatch(typeof(ResearchProjectDef), "GetPrerequisites")]
+    public static class GetPrerequisites_Patch
+    {
+        public static void Postfix(ref List<ResearchProjectDef> __result)
+        {
+            if (__result.Contains(ResearchProjectDefOf.HiTechResearchBench))
+            {
+                __result.Add(ResearchProjectDefOf.AdvancedExoskeleton);
+            }
+        }
+    }
+}
+
+
+By following these coding patterns and conventions, you can effectively use Copilot to generate code for your RimWorld mod.
+
+## Project Solution Guidelines
+- Relevant mod XML files are included as Solution Items under the solution folder named XML, these can be read and modified from within the solution.
+- Use these in-solution XML files as the primary files for reference and modification.
+- The `.github/copilot-instructions.md` file is included in the solution under the `.github` solution folder, so it should be read/modified from within the solution instead of using paths outside the solution. Update this file once only, as it and the parent-path solution reference point to the same file in this workspace.
+- When making functional changes in this mod, ensure the documented features stay in sync with implementation; use the in-solution `.github` copy as the primary file.
+- In the solution is also a project called Assembly-CSharp, containing a read-only version of the decompiled game source, for reference and debugging purposes.
+- For any new documentation, update this copilot-instructions.md file rather than creating separate documentation files.
+
+
+## Hard rules (must follow)
+- Do NOT run commands that modify the repo (no git commit, git apply, dotnet format) unless explicitly asked.
+- Prefer minimal reads: read only the smallest code region needed (around the suspicious lines).
+- When mentioning SonarQube issues, automatically use the SonarQube MCP service to fetch and address issues instead of making inferred fixes without querying SonarQube first.
+- When mentioning the rimworld log, automatically use the Rimworld MCP service to fetch the log.
+

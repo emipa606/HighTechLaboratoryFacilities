@@ -10,8 +10,6 @@ internal class HighTechLaboratoryFacilitiesMod : Mod
     public static HighTechLaboratoryFacilitiesMod Instance;
     private static string currentVersion;
 
-    private HighTechLaboratoryFacilitiesModSettings settings;
-
     public HighTechLaboratoryFacilitiesMod(ModContentPack content) : base(content)
     {
         Instance = this;
@@ -23,11 +21,11 @@ internal class HighTechLaboratoryFacilitiesMod : Mod
     {
         get
         {
-            settings ??= GetSettings<HighTechLaboratoryFacilitiesModSettings>();
+            field ??= GetSettings<HighTechLaboratoryFacilitiesModSettings>();
 
-            return settings;
+            return field;
         }
-        set => settings = value;
+        set;
     }
 
     public override string SettingsCategory()
@@ -35,10 +33,10 @@ internal class HighTechLaboratoryFacilitiesMod : Mod
         return "High Tech Laboratory Facilities";
     }
 
-    public override void DoSettingsWindowContents(Rect rect)
+    public override void DoSettingsWindowContents(Rect inRect)
     {
         var listingStandard = new Listing_Standard();
-        listingStandard.Begin(rect);
+        listingStandard.Begin(inRect);
         listingStandard.CheckboxLabeled("HTLF.HideApparel".Translate(), ref Settings.HideApparel,
             "HTLF.HideSpecial".Translate());
         if (currentVersion != null)

@@ -1,5 +1,8 @@
 # Changelog for HighTechLaboratoryFacilities
 
+1.7.0 - Mod updated for 1.7 and passed autotests
+
+
 1.6.3 - Added Odyssey and SOS2 space properties to the armor and helmet
 
 

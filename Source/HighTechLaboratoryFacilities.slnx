@@ -6,4 +6,23 @@
     <BuildType Name="Release" />
   </Configurations>
   <Project Path="HighTechLaboratoryFacilities/HighTechLaboratoryFacilities.csproj" />
+  <Folder Name="/XML/About/">
+    <File Path="../About/about.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ResearchProjectDefs/">
+    <File Path="../1.7/Defs/ResearchProjectDefs/BaseResearchProjects.xml" />
+  </Folder>
+  <Folder Name="/XML/Languages/English/Keyed/">
+    <File Path="../Languages/English/Keyed/Settings.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Patches/ThingDefs_Buildings/">
+    <File Path="../1.7/Patches/ThingDefs_Buildings/Buildings_Misc.xml" />
+    <File Path="../1.7/Patches/ThingDefs_Buildings/Buildings_Production.xml" />
+    <File Path="../1.7/Patches/ThingDefs_Buildings/Coloring.xml" />
+    <File Path="../1.7/Patches/ThingDefs_Buildings/Patches - Benches.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ThingDefs/">
+    <File Path="../1.7/Defs/ThingDefs/Apparel.xml" />
+    <File Path="../1.7/Defs/ThingDefs/LabEquipment.xml" />
+  </Folder>
 </Solution>
